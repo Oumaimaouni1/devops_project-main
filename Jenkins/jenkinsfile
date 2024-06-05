@@ -5,9 +5,9 @@ pipeline {
         maven "MAVEN_HOME"
     }
     environment {
-        DOCKER_IMAGE_NAME = 'ghassen52/devops_project'
-        DOCKER_HUB_USERNAME = 'ghassen52'
-        DOCKER_HUB_PASSWORD = 'dckr_pat_97iXDGLkPCUFhZM-MBG52yGRR9E'
+        DOCKER_IMAGE_NAME = 'oumaima109/repo-devops-back'
+        DOCKER_HUB_USERNAME = 'oumaima109'
+        DOCKER_HUB_PASSWORD = 'dckr_pat_7-PDZRt_xo483SB_KMJewcvyXy0'
         NEXUS_SNAPSHOT_URL = 'http://localhost:8081/repository/maven-snapshots/'
         NEXUS_RELEASE_URL = 'http://localhost:8081/repository/maven-releases/'
         GROUP_ID = 'tn.esprit'
